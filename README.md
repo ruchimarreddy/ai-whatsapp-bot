@@ -1,8 +1,12 @@
 # AI WhatsApp Bot
 
-A simple WhatsApp chatbot starter built with **FastAPI**, **Twilio WhatsApp Sandbox**, and a lightweight local AI response layer.
+I made this project because I thought it would be really fun to connect AI to something as familiar and everyday as WhatsApp. I wanted to go beyond a simple chatbot running in a notebook and build something that could actually receive a message, process it, and reply like a tiny AI assistant inside a real chat app.
 
-This project is designed as a clean starter repo for showcasing a personal project on GitHub. It receives WhatsApp messages through a webhook, generates a reply using a small local model or fallback logic, and returns the response back to WhatsApp.
+This project gave me a chance to experiment with conversational AI, webhooks, backend development, and model integration in one small end-to-end system. I was especially interested in seeing how tools like **FastAPI**, **Twilio WhatsApp Sandbox**, and lightweight local language models could work together to create a practical prototype.
+
+The result is a simple WhatsApp chatbot starter that receives incoming messages through a webhook, generates a reply using a local AI model or fallback logic, and sends the response back to the user.
+
+More than anything, this project was a fun build — part AI experiment, part software engineering project, and a good way to turn curiosity into something tangible.
 
 ## Features
 
@@ -122,6 +126,4 @@ See `.env.example`.
 - Connect to a custom fine-tuned model
 - Deploy on Render, Railway, or a VPS
 
-## Resume-Friendly Description
 
-Built a WhatsApp chatbot MVP using FastAPI, Twilio Sandbox, and Hugging Face Transformers to receive messages through a webhook and generate automated AI-based replies.
