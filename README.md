@@ -26,7 +26,7 @@ ai-whatsapp-bot/
 │   ├── bot.py
 │   ├── config.py
 │   └── prompts.py
-├── tests/
+├── test/
 │   └── test_bot.py
 ├── .env.example
 ├── .gitignore
